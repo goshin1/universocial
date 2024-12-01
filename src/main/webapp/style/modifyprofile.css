@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+#formbox{
+	positon : relative;
+	width : 1000px;
+	height : 400px;
+	border : 1px solid rgb(172, 172, 172);
+	margin : 50px auto;
+	
+}
+
+#formbox form{
+	margin-top : 30px;
+	margin-left : 20px;
+	float : left;
+	width : 550px;
+	height : 330px;
+}
+
+#formbox a, input[type=submit]{
+	width : 300px;
+	height : 30px;
+	line-height : 30px;
+	display : block;
+	text-align : center;
+	transition: all 0.3s;
+    border: none;
+    color: white;
+    background-color: rgb(76, 232, 0);
+    border-radius: 7px;
+    cursor : pointer;
+}
+
+
+#formbox a:hover, input[type=submit]:hover{
+	background-color: white;
+    border: 1px solid rgb(76, 232, 0);
+    color: rgb(76, 232, 0);
+}
+
+#formbox p{
+	width : 500px;
+	height : 30px;
+	margin-top: 15px;
+	text-align : center;
+}
+
+#formbox p:nth-child(6){
+	margin-top: 40px;
+}
+
+#formbox input[type=text], input[type=password]{
+	width : 300px;
+    margin-top : 10px;
+    border: none;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    color: rgb(172, 172, 172);
+    float : right;
+    transition: all 0.3s;
+}
+
+#formbox input[type=text]:hover, input[type=password]:hover{
+	border-bottom: 1px solid rgb(76, 232, 0);
+	color : rgb(76, 232, 0);
+}
+
+#info{
+	margin-top : 70px;
+	margin-right : 40px;
+	width : 300px;
+	float : right;
+}

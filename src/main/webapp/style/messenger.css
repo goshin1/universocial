@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+	list-style : none;
+}
+
+/* 전체 div */
+#messenger{
+	width : 1400px;
+	height : 500px;
+	margin : 0px auto;
+}
+
+/* 아이디 목록 */
+.left { 
+	margin-left: 200px;
+	margin-top : 50px;
+	border: 1px solid rgb(172, 172, 172);
+	float: left;
+	width: 300px;
+	height: 400px;
+	overflow: auto;
+}
+
+#utitle{
+	margin-left : -40px;
+	margin-top : 5px;
+	width : 298px;
+	line-height : 30px;
+	color : rgb(172, 172, 172);
+	font-weight : bold;
+	text-indent : 10px;
+}
+
+.msgChat{
+	margin-left : -40px;
+	margin-top : 5px;
+	width : 298px;
+	line-height : 30px;
+	color : rgb(172, 172, 172);
+	display : block;
+	transition : all 0.3s;
+	text-indent : 10px;
+}
+
+.msgChat:hover{
+	background : rgb(76, 232, 0);
+	color : white;
+}
+
+/* 채팅 로그+채팅창 */
+.right {
+	border: 1px solid rgb(172, 172, 172);
+	display:inline-block;
+	width: 700px;
+	height: 400px;
+	margin-left: 20px;
+	margin-top : 50px;
+	position : relative;
+}
+
+/* 채팅 로그 */
+#chatlog {
+	width : 100%;
+	height: 330px;
+	overflow: auto;
+}
+
+/* 채팅 입력창 + 보내기 */
+#chatsend {
+	width : 100%;
+	line-height:70px;
+	height : 70px;
+	background : white;
+	border-top : 1px solid rgb(172, 172, 172);
+	border-bottom : 1px solid rgb(172, 172, 172);
+	vertical-align: bottom;
+
+	position: absolute;
+}
+
+/* 채팅 입력창 */
+#chatsend input:nth-child(1) {
+	width: 595px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+/* 보내기 버튼 */
+#chatsend input:nth-child(2) {
+	width: 70px;
+	height: 50px;
+	border : 1px solid rgb(172, 172, 172);
+	margin-left: 5px;
+	transition : all 0.3s;
+	color : rgb(172, 172, 172);
+}
+
+#chatsend input[type=submit]:hover{
+	background : rgb(76, 232, 0);
+	border : 1px solid rgb(76, 232, 0);
+	color : white;
+}
+
+/* 보낸 채팅 */
+.chatlog_send{
+	width : 106%;
+	line-height : 30px;
+	margin-left : -40px;
+	background : rgb(76, 232, 0);
+	color : white;
+	text-indent : 10px;
+}
+
+/* 받은 채팅 */
+.chatlog_recv{
+	width : 106%;
+	line-height : 30px;
+	margin-left : -40px;
+	color : rgb(172, 172, 172);
+	text-indent : 10px;
+}

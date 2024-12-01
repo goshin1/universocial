@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    box-sizing:border-box
+}
+
+body{
+    width: 1440px;
+    max-width: 1440px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#searchMem{
+    margin-top: 25px;
+    border : 1px solid #999;
+    width: 1350px;
+    height: 180px;
+}
+
+#searchMem p{
+    margin: 20px;
+    width: 100%;
+    text-indent: 20px;
+    color: #999;
+}
+
+#searchMem input[type=text]{
+    width: 1000px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    float: right;
+}
+
+#searchMem input[type=submit]{
+    width: 60px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    color: #999;
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    transition: all 0.3s;
+}
+
+#searchMem input[type=submit]:hover{
+    border: 1px solid rgb(76, 232, 0);
+    background-color: rgb(76, 232, 0);
+    color: white;
+}
+
+table{
+    margin: 25px;
+    width: 1400px;
+
+}
+
+th{
+    
+    background-color: rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
+}
+
+.row{
+    padding-top: 240px;
+}
+
+td{
+    text-align: center;
+    color: rgb(82, 82, 82);
+    border : 1px solid rgb(172, 172, 172);
+}
+
+.tdbtn{
+	cursor : pointer;
+	transition : all 0.3s;
+}
+
+.tdbtn:hover{
+	border: 1px solid rgb(76, 232, 0);
+    background-color: rgb(76, 232, 0);
+    color: white;
+}
+
+footer{
+    
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(255,255,255);
+    text-align: center;
+    position: relative;
+}

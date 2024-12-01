@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    box-sizing:border-box;
+}
+
+body{
+    width: 1440px;
+    max-width: 1440px;
+	height:600px;
+}
+
+a{
+    text-decoration: none;
+}
