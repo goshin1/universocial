@@ -38,7 +38,11 @@
 
 |다른사람|본인|
 |---|---|
-![](introduce/board_detail.png)|![](introduce/board_detail_self.png)<br/>
+![](introduce/board_detail.png)|![](introduce/board_detail_self.PNG)<br/>
+
+|수정|삭제|
+|---|---|
+![](introduce/board_detail_update.PNG)|![](introduce/board_detail_delete.PNG)<br/>
 
 게시글에서는 게시글 내용 확인 할 수 있으며 하단에 댓글란을 통해 댓글을 작성할 수 있으며 본인 댓글일 경우 삭제할 수 있습니다.<br/>
 게시글 삭제 수정 또한 본인의 게시글일 경우 버튼이 활성화 됩니다.<br/><br/>
